@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zion Tseng – Art Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+    header {
+      background-color: #222;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #a463f2;
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    nav {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #a463f2;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border: 3px solid #a463f2;
+      border-radius: 8px;
+    }
+    .about, .contact {
+      text-align: center;
+      line-height: 1.8;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 2rem;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .highlight {
+      color: #a463f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zion Tseng</h1>
+    <p class="highlight">Modern. Bold. Expressive.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2 class="highlight">About Me</h2>
+    <p>I recently graduated from Rutgers University – Mason Gross School of the Arts. My work explores bold compositions, surreal themes, and emotional storytelling through a modern lens. Each piece is an extension of my voice — layered with intention, texture, and contrast.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2 class="highlight">Gallery</h2>
+    <div class="gallery">
+      <img src="art1.jpg" alt="Artwork 1">
+      <img src="art2.jpg" alt="Artwork 2">
+      <img src="art3.jpg" alt="Artwork 3">
+      <img src="art4.jpg" alt="Artwork 4">
+      <img src="art5.jpg" alt="Artwork 5">
+      <img src="art6.jpg" alt="Artwork 6">
+      <img src="art7.jpg" alt="Artwork 7">
+      <img src="art8.jpg" alt="Artwork 8">
+      <img src="art9.jpg" alt="Artwork 9">
+      <img src="art10.jpg" alt="Artwork 10">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="highlight">Contact</h2>
+    <p>Email: <a href="mailto:ntseng66@gmail.com">ntseng66@gmail.com</a></p>
+    <p>Phone: 732-554-4859</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Zion Tseng. All rights reserved.
+  </footer>
+</body>
+</html>
